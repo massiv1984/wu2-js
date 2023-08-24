@@ -33,7 +33,7 @@ ls -la
 4. Installera extension, `ctrl+shift+X`, WSL från Microsoft.
 5. Koppla upp dig mot WSL genom att klicka nere i vänstra hörnet.
 
-![WSL](./wslvscode.png)
+![WSL](./assets/images/wslvscode.png)
 
 6. Forka detta repo, [wu2-js](https://github.com/jensadev/wu2-js) och klona ner det till din dator. För att göra detta använd Git i VScode. Tryck `ctrl+shift+P` och skriv `git clone` och följ instruktionerna.
 7. Se till att du öppnar mappen `wu2-js` i VSCode.
@@ -51,6 +51,11 @@ npm create vite@latest
 ```
 
 Följ sedan instruktionerna, du kan läsa mer på [Vite, Getting Started](https://vitejs.dev/guide/).
+
+
+### Deploy
+
+På det här repot så är även GitHub-actions aktiverat, så att när du pushar till `main` så byggs projektet `npm run build` och hostar resultatet på GitHub-pages.
 
 ## Kom igång
 
