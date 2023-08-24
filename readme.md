@@ -57,6 +57,19 @@ Följ sedan instruktionerna, du kan läsa mer på [Vite, Getting Started](https:
 
 På det här repot så är även GitHub-actions aktiverat, så att när du pushar till `main` så byggs projektet `npm run build` och hostar resultatet på GitHub-pages.
 
+Av den anledningen så ska du även får lära dig om branches och pull requests. Du kommer arbeta i lektions branches och göra pull requests till main när du är klar.
+
+ - Skapa ny bran för lektionen
+ - Gör dina ändringar
+    - Pusha upp till GitHub
+    - Gör en pull request till main
+    - Vänta på att den blir godkänd
+    - Merga in den i main
+    - Gå tillbaka till main
+    - Pulla ner ändringarna
+    - Städa upp lokalt
+    - Gå tillbaka till steg 1
+
 ## Kom igång
 
 Innan du kan köra igång Vite så behöver du installera en del paket som krävs för att köra Vite. Detta gör du genom att köra kommandot `npm install`. Du kör det från mappen `wu2-js`, du kan kontrollera att du är i rätt mapp genom att köra kommandot `pwd`.
