@@ -90,31 +90,35 @@ npm run dev
 
 Följande är områden från Programmering 1 som du kommer att repetera. Vissa delar är sådan som du arbetat med i kursen Webbutveckling 1.
 
-## Variabler och Datatyper
+## Mål
+
+Att du ska ha en bättre förståelse för grundläggande programmering och hur du kan använda JavaScript för att skapa interaktiva webbsidor.
+
+### Variabler och Datatyper
 
 Förstå hur du deklarerar variabler med var, let och const. Känn till de olika datatyperna som används i JavaScript, inklusive number, string, boolean, null, undefined, object och array.
 
-## Operatorer
+### Operatorer
 
 Kunna använda aritmetiska operatorer (+, -, *, /), jämförelseoperatorer (==, ===, !=, !==, >, <, >=, <=) och logiska operatorer (&&, ||, !) för att utföra olika operationer i JavaScript.
 
-## Kontrollstrukturer
+### Kontrollstrukturer
 
 Förstå hur du använder if-satser och loopar som for och while för att skapa villkorliga och upprepade operationer.
 
-## Array och Objekt
+### Array och Objekt
 
 Kunna hantera listor och objekt i JavaScript, inklusive att lägga till, ta bort och modifiera element.
 
-## Funktioner
+### Funktioner
 
 Kunna definiera och använda funktioner med function-nyckelordet. Förstå konceptet med parametrar och returvärden i funktioner.
 
-## Scope och Closures
+### Scope och Closures
 
 Förstå koncepten om omfattning (scope) och avslutningar (closures) för att undvika problem med variabelkonflikter och förstå hur JavaScript-hanterar funktioners omfattning.
 
-## Händelser (events) och hur de hanteras
+### Händelser (events) och hur de hanteras
 
 Veta hur du kopplar händelser som klick, muspekare och tangenttryckningar till JavaScript-funktioner för att göra webbsidor interaktiva.
 
@@ -123,21 +127,21 @@ Veta hur du kopplar händelser som klick, muspekare och tangenttryckningar till 
 
 Detta är sådan som du kommer att få öva och arbeta med under kursens gång.
 
-## DOM-manipulation
+### DOM-manipulation
 
 Förstå Document Object Model (DOM) och hur man kan använda JavaScript för att ändra och manipulera HTML-element på en webbsida.
 
 
-## Asynkron programmering
+### Asynkron programmering
 
 Grundläggande kunskap om asynkrona operationer, användningen av setTimeout, setInterval, och Promise för att hantera icke-blockerande operationer.
 
-## Felsökning
+### Felsökning
 
 Förmåga att använda webbläsarens inbyggda utvecklingsverktyg eller andra verktyg som VS Code för att felsöka JavaScript-kod.
 
 
-## JavaScript, språket
+### JavaScript, språket
 
 Grunderna i att skapa objekt och använda konstruktorfunktioner eller klasser för att organisera din kod enligt OOP-principer.
 
