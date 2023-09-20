@@ -4,6 +4,8 @@ export function setupPractice (element) {
   // du ska i varje del arbeta med att visa vad du lärt dig
   // i slutändan ska projektet köras och inte innehålla fel och
   // du ska kunna förklara vad, hur varför PM
+
+  // Samtliga delar finns förklarade/beskrivna https://webbutveckling.jensa.dev/tekniker/javascript/
   varsAndTypes(element)
   operators(element)
   controlStructures(element)
@@ -42,6 +44,7 @@ function domAndEvents (element) {
   // använd med html och listeners
   console.log(element, 'lyssna efter event för att ändra element')
 }
+
 function domManipulation (element) {
   // kod för att visa vad du lärt dig om DOM-manipulation
   // skapa element och lägga till och ta bort
