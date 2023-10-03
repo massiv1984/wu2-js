@@ -48,7 +48,10 @@ function controlStructures(element) {
   }
   console.log ('graga stor :D graga ' + graga)
   console.log ('groga = ' + groga)
-  if (groga > 90) {
+  if (groga == 100) {
+    console.log ('groga super vinner på lotteriet!!!!!!!!!!!!!!!!!!!!!!!')
+  }
+  else if (groga > 89) {
     console.log ('groga vinner lotteriet!!!!')
   }
   else {
@@ -56,9 +59,21 @@ function controlStructures(element) {
   }
 }
 
+// stulen funktion https://www.geeksforgeeks.org/how-to-generate-random-number-in-given-range-using-javascript/
+function randomNumber(min, max) {
+  return Math.round(Math.random() * (max - min) + min)
+}
+
 function arraysAndObjects (element) {
   // kod för att visa vad du lärt dig om arrays och objekt
   console.log(['arrays', {and: 'objects'}])
+
+  const letter = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'å', 'ä', 'ö']
+  const month = ['januari', 'februari', 'mars', 'april', 'maj', 'juni', 'juli', 'augusti', 'september', 'oktober', 'november', 'december']
+  console.log(letter)
+  console.log(month)
+  console.log('ditt namn börjar på bokstaven ' + letter[randomNumber(0, letter.length - 1)] + ' och du föddes i ' + month[randomNumber(0, month.length - 1)] + '. hade jag rätt? maila mig på jeff@amazon.com och klaga om jag hade fel')
+
 }
 
 function domAndEvents (element) {
