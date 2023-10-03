@@ -1,19 +1,20 @@
 # PM Webbprojekt
 
-Författare och datum.
+Emil Kero
+2023-10-03
 
 ## Vad
 
-Här beskriver du kortfattat vad du har arbetat med.
+Jag har gjort ett kunskapstest där jag har gjort variabler, operatorer, kontrollstrukturer och arrays.
 
 ## Hur
 
-Här beskriver du hur du har arbetat med projektet. Vilka verktyg och metoder har du använt.
+Jag har skrivit en funktion som slumpar om groga vinner på lotteriet och en funktion som slumpmässigt gissar första bokstaven på ditt namn och månaden du föddes.
 
 ## Positiva erfarenheter
 
-Här beskriver du vad som har gått bra i ditt projekt och analyserar varför. Hur ska du upprepa framgångarna.
+Det gick bra att skriva det jag kunde
 
 ## Negativa erfarenheter
 
-Här beskriver du det som du anser har gått mindre bra med ditt projekt och analyserar hur du kan undvika detta i framtida projekt.
+Det gick dåligt med det jag inte kunde såsom mycket som hade att göra med Math.random
