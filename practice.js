@@ -32,8 +32,12 @@ function varsAndTypes(element) {
 }
 
 function operators(element) {
+  let gronga = 15
   // kod för att visa vad du lärt dig om operatorer
   console.log('operators === ', 1 === 1)
+  console.log('gruga?', 2 + 2 === 3)
+  console.log('gronga?', gronga)
+  console.log('gro', gronga / 2 === 7.5)
 }
 
 function controlStructures(element) {
