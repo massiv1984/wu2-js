@@ -19,7 +19,16 @@ export function setupPractice (element) {
 function varsAndTypes(element) {
   // kod för att visa vad du lärt dig om variabler och typer
   let varsAndTypes = 'varsAndTypes'
+  let gronga = 15
+  let gruga = false
+  
   console.log(varsAndTypes, typeof(varsAndTypes))
+  console.log(gronga, typeof(gronga))
+  console.log(gruga, typeof(gruga))
+
+  const grag = gruga
+
+  console.log(grag, typeof(grag))
 }
 
 function operators(element) {
