@@ -18,15 +18,13 @@ export function setupPractice (element) {
 // andra moment än där funktionen heter så såklart
 function varsAndTypes(element) {
   // kod för att visa vad du lärt dig om variabler och typer
-  let varsAndTypes = 'varsAndTypes'
   let gronga = 15
   let gruga = false
   
-  console.log(varsAndTypes, typeof(varsAndTypes))
   console.log(gronga, typeof(gronga))
   console.log(gruga, typeof(gruga))
 
-  const grag = gruga
+  const grag = 'grag ' + gruga
 
   console.log(grag, typeof(grag))
 }
@@ -34,17 +32,28 @@ function varsAndTypes(element) {
 function operators(element) {
   let gronga = 15
   // kod för att visa vad du lärt dig om operatorer
-  console.log('operators === ', 1 === 1)
   console.log('gruga?', 2 + 2 === 3)
   console.log('gronga?', gronga)
   console.log('gro', gronga / 2 === 7.5)
 }
 
 function controlStructures(element) {
+  let graga = 4
+  let groga = Math.round(Math.random() * 100)
   // kod för att visa vad du lärt dig om kontrollstrukturer
   // if och loopar
-  let controlStructures = 'controlStructures'
-  console.log(controlStructures, controlStructures ? 'if' : 'loopar')
+  while (graga < 10) {
+    console.log ('graga liten :/ graga bara ' + graga)
+    graga ++
+  }
+  console.log ('graga stor :D graga ' + graga)
+  console.log ('groga = ' + groga)
+  if (groga > 90) {
+    console.log ('groga vinner lotteriet!!!!')
+  }
+  else {
+    console.log ('groga vinner inte lotteriet')
+  }
 }
 
 function arraysAndObjects (element) {
